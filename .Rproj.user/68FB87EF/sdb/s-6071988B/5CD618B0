@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1426879478023.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5CD618B0",
+    "lastKnownWriteTime" : 13229740524830817,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "aphid",
+        "contentUrl" : "content?title=aphid&file=6a99bbb1fc904a23a1fd8bfb65496349.htm",
+        "displayedObservations" : 378,
+        "displayedVariables" : 5,
+        "totalObservations" : 378,
+        "variables" : 4
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

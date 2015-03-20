@@ -1,15 +1,16 @@
 {
-    "contents" : "install.packages('aster')\nrequire(aster)\n",
+    "contents" : "#install.packages('aster')\nrequire(aster)\ndata(echinacea)\noly<-read.csv('olyaster.csv')\nvars<-c(\"Live.Dead\",\"Brood\",\"Larvae\")\nredata<-reshape(oly, varying=list(vars), direction=\"long\",\n                timevar=\"varb\", times=as.factor(vars), v.names=\"resp\")\nnames(redata)\nclass(redata$varb)\nlevels(redata$varb)\nredata[42,]\nredata <- data.frame (redata, root=1)\nnames(redata)\npred<-c(0,1,2)\nfam<-c(1,1,1)\nsapply(fam.default(),as.character)[fam]\nall(pred < seq(along=pred))\naout1 <- aster(resp~varb+Population+Site, pred, fam, varb, id, root, data=redata)\nsummary(aout1, show.graph=T)\n",
     "created" : 1426804576403.000,
-    "dirty" : true,
-    "encoding" : "",
+    "dirty" : false,
+    "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1690949835",
+    "hash" : "884399616",
     "id" : "70347BC6",
-    "lastKnownWriteTime" : 32651569751457901,
-    "path" : null,
-    "project_path" : null,
+    "lastKnownWriteTime" : 1426890728,
+    "path" : "~/R/ASTER/OlyAsterAttempt.R",
+    "project_path" : "OlyAsterAttempt.R",
     "properties" : {
+        "notebook_format" : "html_document",
         "tempName" : "Untitled1"
     },
     "source_on_save" : false,

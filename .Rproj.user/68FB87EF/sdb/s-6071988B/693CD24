@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1426883709130.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "693CD24",
+    "lastKnownWriteTime" : 13229740517228545,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "oly",
+        "contentUrl" : "content?title=oly&file=f4561fbbb61f445ea53d04278071a0f0.htm",
+        "displayedObservations" : "1000",
+        "displayedVariables" : 5,
+        "totalObservations" : "5760",
+        "variables" : "6"
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

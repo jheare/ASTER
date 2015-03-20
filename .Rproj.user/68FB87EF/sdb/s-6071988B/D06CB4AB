@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1426879526490.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D06CB4AB",
+    "lastKnownWriteTime" : 0,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "echinacea",
+        "contentUrl" : "content?title=echinacea&file=c11cb8aa932740358d5ddf35ddca1c66.htm",
+        "displayedObservations" : 570,
+        "displayedVariables" : 12,
+        "totalObservations" : 570,
+        "variables" : 12
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
