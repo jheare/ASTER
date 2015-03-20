@@ -1,0 +1,17 @@
+{
+    "contents" : "install.packages('aster')\nrequire(aster)\n",
+    "created" : 1426804576403.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "1690949835",
+    "id" : "70347BC6",
+    "lastKnownWriteTime" : 32651569751457901,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
