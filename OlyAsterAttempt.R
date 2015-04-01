@@ -17,3 +17,5 @@ sapply(fam.default(),as.character)[fam]
 all(pred < seq(along=pred))
 aout1 <- aster(resp~varb+Population+Site, pred, fam, varb, id, root, data=redata)
 summary(aout1, show.graph=T)
+data(radish)
+View(radish)

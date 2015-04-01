@@ -1,12 +1,12 @@
 {
-    "contents" : "#install.packages('aster')\nrequire(aster)\ndata(echinacea)\noly<-read.csv('olyaster.csv')\nvars<-c(\"ld14\",\"brd14\",\"lv14\")\nredata<-reshape(oly, varying=list(vars), direction=\"long\",\n                timevar=\"varb\", times=as.factor(vars), v.names=\"resp\")\nnames(redata)\nclass(redata$varb)\nlevels(redata$varb)\nredata[42,]\nredata <- data.frame (redata, root=1)\nnames(redata)\npred<-c(0,0,1)\nfam<-c(1,1,2)\nsapply(fam.default(),as.character)[fam]\nall(pred < seq(along=pred))\naout1 <- aster(resp~varb+Population+Site, pred, fam, varb, id, root, data=redata)\nsummary(aout1, show.graph=T)\n",
+    "contents" : "#install.packages('aster')\nrequire(aster)\ndata(echinacea)\noly<-read.csv('olyaster.csv')\nvars<-c(\"ld14\",\"brd14\",\"lv14\")\nredata<-reshape(oly, varying=list(vars), direction=\"long\",\n                timevar=\"varb\", times=as.factor(vars), v.names=\"resp\")\nnames(redata)\nclass(redata$varb)\nlevels(redata$varb)\nredata[42,]\nredata <- data.frame (redata, root=1)\nnames(redata)\npred<-c(0,0,1)\nfam<-c(1,1,2)\nsapply(fam.default(),as.character)[fam]\nall(pred < seq(along=pred))\naout1 <- aster(resp~varb+Population+Site, pred, fam, varb, id, root, data=redata)\nsummary(aout1, show.graph=T)\ndata(radish)\nView(radish)\n",
     "created" : 1426804576403.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1392427762",
+    "hash" : "1196615714",
     "id" : "70347BC6",
-    "lastKnownWriteTime" : 1426893268,
+    "lastKnownWriteTime" : 1427849217,
     "path" : "~/R/ASTER/OlyAsterAttempt.R",
     "project_path" : "OlyAsterAttempt.R",
     "properties" : {
