@@ -1,21 +1,21 @@
 {
     "contents" : "",
-    "created" : 1426883709130.000,
+    "created" : 1427928146670.000,
     "dirty" : false,
     "encoding" : "",
     "folds" : "",
     "hash" : "0",
-    "id" : "693CD24",
+    "id" : "17310A4",
     "lastKnownWriteTime" : 13229740517228545,
     "path" : null,
     "project_path" : null,
     "properties" : {
-        "caption" : "oly",
-        "contentUrl" : "content?title=oly&file=4308fffd9ebd45c99bd467959d2648e0.htm",
+        "caption" : "redata",
+        "contentUrl" : "content?title=redata&file=713dffe36eee40dab41e177ce2a2e347.htm",
         "displayedObservations" : "1000",
-        "displayedVariables" : 5,
-        "totalObservations" : "5760",
-        "variables" : "6"
+        "displayedVariables" : 7,
+        "totalObservations" : "5976",
+        "variables" : "8"
     },
     "source_on_save" : false,
     "type" : "r_dataframe"

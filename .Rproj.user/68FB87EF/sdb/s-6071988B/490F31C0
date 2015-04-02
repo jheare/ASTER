@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1427928320251.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "490F31C0",
+    "lastKnownWriteTime" : 13229740517228545,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "oly2",
+        "contentUrl" : "content?title=oly2&file=8f902c95ea5f46f19f7cdd61ed2611d2.htm",
+        "displayedObservations" : 249,
+        "displayedVariables" : 26,
+        "totalObservations" : 249,
+        "variables" : 26
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
