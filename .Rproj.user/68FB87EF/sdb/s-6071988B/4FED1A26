@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1428082366008.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4FED1A26",
+    "lastKnownWriteTime" : 13229740524830817,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "radish",
+        "contentUrl" : "content?title=radish&file=537a2a554bd544ad8cfdea22c49f635c.htm",
+        "displayedObservations" : 858,
+        "displayedVariables" : 12,
+        "totalObservations" : 858,
+        "variables" : 11
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,22 @@
+{
+    "contents" : "",
+    "created" : 1428084280152.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "F7AC13AA",
+    "lastKnownWriteTime" : 7741240723082584096,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "caption" : "olyblock",
+        "contentUrl" : "content?title=olyblock&file=93fa0916e7944ec1bfd0dabf7d735154.htm",
+        "displayedObservations" : 796,
+        "displayedVariables" : 28,
+        "totalObservations" : 796,
+        "variables" : 28
+    },
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

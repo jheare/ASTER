@@ -1,0 +1,17 @@
+{
+    "contents" : "require(aster)\nolyblock<-read.csv(\"asterblock2.csv\")\nvars<-c(\"ldt1\",\"ldt2\",\"ldt3\",\n        \"brt1\",\"brt2\",\"brt3\",\n        \"lvt1\",\"lvt2\",\"lvt3\")\nredata<-reshape(olyblock, varying=list(vars), direction=\"long\",\n                timevar=\"varb\", times=as.factor(vars), v.names=\"resp\")\nnames(redata)\nclass(redata$varb)\nlevels(redata$varb)\nredata[42,]\nredata <- data.frame (redata, root=1, fit=0)\nnames(redata)\npred<-c(0,1,2,1,2,3,4,5,6)\nfam<-c(1,1,1,1,1,1,2,2,2)\nrout<-reaster(resp~varb+fit:(Site*Region),\n              list(block = ~fit:Block,\n                   pop = ~fit:Population),\n              pred, fam, varb,id,root,data=redata)\n\nrout<-aster(resp~varb+Site+Population+fit:(Site*Population),\n              pred, fam, varb,id,root,data=redata, maxiter=5000)\n",
+    "created" : 1428083831579.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4072766419",
+    "id" : "3B8C0AFE",
+    "lastKnownWriteTime" : 1428088494,
+    "path" : "~/R/ASTER/reasterattempt.R",
+    "project_path" : "reasterattempt.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

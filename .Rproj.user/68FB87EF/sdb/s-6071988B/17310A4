@@ -11,11 +11,11 @@
     "project_path" : null,
     "properties" : {
         "caption" : "redata",
-        "contentUrl" : "content?title=redata&file=e3bc3004fa95422e886aecf035b2ffac.htm",
+        "contentUrl" : "content?title=redata&file=e130847645f444c08f3563532b6e61fc.htm",
         "displayedObservations" : "1000",
         "displayedVariables" : 7,
-        "totalObservations" : "5976",
-        "variables" : "6"
+        "totalObservations" : "19104",
+        "variables" : "9"
     },
     "source_on_save" : false,
     "type" : "r_dataframe"
