@@ -1,10 +1,10 @@
 {
-    "contents" : "#install.packages('aster')\nrequire(aster)\ndata(echinacea)\noly<-read.csv('oysbay1.csv')\noly2<-oly[-250,]\nvars<-c(\"ldt1\",\"ldt2\",\"ldt3\",\"ldt4\",\"ldt5\",\"ldt6\",\"ldt7\",\"ldt8\",\"brt1\",\"brt2\",\n        \"brt3\",\"brt4\",\"brt5\",\"brt6\",\"brt7\",\"brt8\",\"lvt1\",\"lvt2\",\"lvt3\",\"lvt4\",\n        \"lvt5\",\"lvt6\",\"lvt7\",\"lvt8\")\nredata<-reshape(oly2, varying=list(vars), direction=\"long\",\n                timevar=\"varb\", times=as.factor(vars), v.names=\"resp\")\nnames(redata)\nclass(redata$varb)\nlevels(redata$varb)\nredata[42,]\nredata <- data.frame (redata, root=1)\nnames(redata)\npred<-c(0,1,2,3,4,5,6,7,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16)\nfam<-c(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2)\naout1 <- aster(resp~varb+Population, pred, fam, varb, id, root, data=redata,maxiter=10000)\nsummary(aout1, show.graph=T)\n\n\n\n",
+    "contents" : "#install.packages('aster')\nrequire(aster)\ndata(echinacea)\noly<-read.csv('astercondensed.csv')\nvars<-c(\"ldt1\",\"ldt2\",\"ldt3\",\"brt1\",\"brt2\",\n        \"brt3\",\"lvt1\",\"lvt2\",\"lvt3\")\nredata<-reshape(oly, varying=list(vars), direction=\"long\",\n                timevar=\"varb\", times=as.factor(vars), v.names=\"resp\")\nnames(redata)\nclass(redata$varb)\nlevels(redata$varb)\nredata[42,]\nredata <- data.frame (redata, root=1)\nnames(redata)\npred<-c(0,1,2,1,2,3,4,5,6)\nfam<-c(1,1,1,1,1,1,2,2,2)\naout1 <- aster(resp~varb+Population+Site, pred, fam, varb, id, root, data=redata,maxiter=1000)\nsummary(aout1, show.graph=T)\n\n\n\n",
     "created" : 1426804576403.000,
-    "dirty" : false,
+    "dirty" : true,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2419739846",
+    "hash" : "3080370610",
     "id" : "70347BC6",
     "lastKnownWriteTime" : 1427934470,
     "path" : "~/R/ASTER/OlyAsterAttempt.R",

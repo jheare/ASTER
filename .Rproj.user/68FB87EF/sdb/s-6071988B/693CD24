@@ -11,11 +11,11 @@
     "project_path" : null,
     "properties" : {
         "caption" : "oly",
-        "contentUrl" : "content?title=oly&file=4308fffd9ebd45c99bd467959d2648e0.htm",
-        "displayedObservations" : "1000",
+        "contentUrl" : "content?title=oly&file=bf1c7fae664241298ae447cc4e329fa8.htm",
+        "displayedObservations" : "796",
         "displayedVariables" : 5,
-        "totalObservations" : "5760",
-        "variables" : "6"
+        "totalObservations" : "796",
+        "variables" : "26"
     },
     "source_on_save" : false,
     "type" : "r_dataframe"
